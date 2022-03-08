@@ -1,0 +1,89 @@
+html {
+    cursor: url(img/mata_mosca.png) 30 30, auto;
+}
+
+body {
+    background: url('img/bg.jpg') no-repeat;
+    background-size: cover;
+
+}
+
+.mosquito1 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2 {
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3 {
+    width: 90px;
+    height: 90px;
+}
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+.painel {
+    margin-left: 0;
+    bottom: 0;
+    float: left;
+    position: absolute;
+    padding: 10px;
+    background-color: #fff;
+    opacity: 0.7;
+    width: 190px;
+    border-top:solid 1px #fff;
+}
+
+.cronometro {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.game-over {
+    margin: 0 37%;
+}
+
+.btn-reinicia {
+    background-color: #343a40;
+    color: #fff;
+    margin-left: 46%;
+    padding: 17px;
+    font-size: 18px;
+    border-radius: 8px;
+    border-color: #343a40;
+    cursor: pointer;
+    width: 170px;
+}
+
+.btn-reinicia:hover {
+    background-color: #272b2f;
+}
+
+.btn-inicia {
+    background-color: #D14451;
+    color: #fff;
+    margin-left: 46%;
+    margin-top: 30px;
+    padding: 17px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 170px;
+    font-weight: bold;
+}
+
+.dificuldade {
+    margin-left: 43.4%;
+    padding: 10px;
+    display: block;
+    font-size: 17px;
+}
